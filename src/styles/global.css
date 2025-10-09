@@ -97,6 +97,9 @@ textarea {
 input {
 	font-size: 16px;
 }
+iframe{
+	max-width: 90vw;
+}
 table {
 	width: 100%;
 }
@@ -152,4 +155,8 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+.centered-text {
+	text-align: center;
 }
